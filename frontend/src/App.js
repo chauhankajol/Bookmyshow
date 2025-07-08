@@ -1,8 +1,14 @@
 import React from 'react'
+import Home from './pages/Home'
+import BsState from './context/Bsstate'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <BsState>
+      <Home/>
+      </BsState>
+    </div>
   )
 }
 
